@@ -118,7 +118,7 @@ function ChatUser() {
                                     <MDBCard>
                                         <MDBCardHeader className="d-flex justify-content-between p-3">
                                             <p className="text-muted small mb-0">
-                                                <MDBIcon far icon="clock" /> {moment(message.createdAt).format("hh:mm A")}
+                                                <MDBIcon far icon="clock" /> {moment(message.createdAt)?.format("hh:mm A")}
                                             </p>
                                         </MDBCardHeader>
                                         <MDBCardBody>
