@@ -12,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.2",
     "react-router": "^7.0.2",
+     "moment": "^2.29.4",
     "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
     "socket.io-client": "^4.8.1"
